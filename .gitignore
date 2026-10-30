@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+predictions*.json
+benchmark*.json
+.DS_Store
+Thumbs.db

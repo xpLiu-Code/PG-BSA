@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgbsa"
+version = "1.0.0"
+description = "PG-BSA: Physics-Guided Beam-Domain Sparse Attention for High-Resolution Underdetermined DOA Estimation With an Unknown Number of Sources"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy==1.26.4", "scipy==1.13.1", "numba==0.59.1", "torch==2.6.0"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering"]
+
+[project.optional-dependencies]
+dev = ["pytest==7.4.4", "wheel>=0.43"]
+
+[project.scripts]
+pgbsa-infer = "pgbsa.cli:main"
+
+[tool.setuptools]
+license-files = ["NOTICE.md", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pgbsa*"]
+
+[tool.setuptools.package-data]
+pgbsa = ["assets/*.json", "assets/*.pth"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -p no:cacheprovider"
