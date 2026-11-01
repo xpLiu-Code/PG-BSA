@@ -2,7 +2,7 @@
 
 PG-BSA estimates a variable-length set of directions of arrival from the sample covariance of a 16-element uniform linear array. It combines physics-guided beam-domain features, sparse angular attention, local angle refinement, and covariance-based set recovery. The source count is inferred from the observation.
 
-This repository contains the current inference implementation, its pretrained weights, and a small set of regression examples. The deployed network has **2,367,509 parameters**. Training code and full experimental datasets are outside this package.
+This repository contains the current inference implementation, its pretrained weights, and a small set of regression examples. The deployed network has **2,367,509 parameters**. 
 
 ## Installation
 
