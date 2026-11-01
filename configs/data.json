@@ -1,0 +1,12 @@
+{
+  "batch_size": 128,
+  "samples_per_shard": 2048,
+  "mode_sequence": ["ordinary", "adapted", "close", "close_covered", "retrieval"],
+  "low_snapshot_fraction": 0.65,
+  "low_snr_fraction": 0.15,
+  "splits": {
+    "train": {"seed": 202611010101, "samples": 24576},
+    "validation": {"seed": 202611010202, "samples": 3072},
+    "test": {"seed": 202611010303, "samples": 3072}
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Regression references for the three bundled covariance examples.",
+  "reference_device": "NVIDIA GeForce RTX 4090",
+  "tolerance_deg": 0.001,
+  "predictions": [
+    {
+      "sample_id": 0,
+      "trial": 0,
+      "angles_deg": [
+        -57.355431756074225,
+        -54.24228790312407,
+        -51.39569894673948,
+        -46.755315099631744,
+        1.336618686980951,
+        9.726773554544652,
+        19.216736043042665,
+        23.593019822958706,
+        32.50438759898314,
+        39.74676791893235,
+        49.301381312221444,
+        51.326208540188105
+      ],
+      "condition_id": 21
+    },
+    {
+      "sample_id": 1,
+      "trial": 0,
+      "angles_deg": [
+        8.747612978026929,
+        9.498173758515929
+      ],
+      "condition_id": 38
+    },
+    {
+      "sample_id": 2,
+      "trial": 0,
+      "angles_deg": [],
+      "condition_id": 143
+    }
+  ]
+}

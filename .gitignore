@@ -14,3 +14,6 @@ predictions*.json
 benchmark*.json
 .DS_Store
 Thumbs.db
+data/
+runs/
+*.resume.pth

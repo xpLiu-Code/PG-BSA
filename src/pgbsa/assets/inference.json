@@ -1,0 +1,25 @@
+{
+  "runtime_options": {
+    "rank2_pair_gradient": true,
+    "parallel_low_scene_physics": false,
+    "parallel_final_physics": false,
+    "initial_dense_nms_gap": 0.9,
+    "angle_polish_steps": 3,
+    "angle_polish_backend": "cpu",
+    "angle_polish_max_count": 12,
+    "angle_polish_min_span": 40.0,
+    "parallel_angle_polish": true,
+    "grid_kv_stride": 2,
+    "grid_kv_roles": [
+      "original",
+      "close_pair"
+    ],
+    "grid_kv_dense_layers": 0,
+    "graph_compact_refiner": true,
+    "graph_refiner_cache_mib": 32,
+    "ula_score_acceleration": true,
+    "candidate_graph_cache_mib": 32,
+    "graph_expanded_candidates": true,
+    "candidate_graph_min_reuse": 3
+  }
+}
